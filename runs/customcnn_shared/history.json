@@ -1,0 +1,82 @@
+[
+  {
+    "epoch": 1,
+    "food_train_loss": 0.7118808625738136,
+    "food_val_loss": 18.30548347943071,
+    "food_val_accuracy": 0.11503623188405797,
+    "water_train_loss": 1.8330847915166464,
+    "water_val_loss": 1.0596824226900936,
+    "water_val_accuracy": 0.6875,
+    "seconds": 66.34713053703308
+  },
+  {
+    "epoch": 2,
+    "food_train_loss": 0.5615143826054655,
+    "food_val_loss": 26.60568542756896,
+    "food_val_accuracy": 0.11503623188405797,
+    "water_train_loss": 1.870051988424399,
+    "water_val_loss": 1.5562617802526801,
+    "water_val_accuracy": 0.55625,
+    "seconds": 35.39691686630249
+  },
+  {
+    "epoch": 3,
+    "food_train_loss": 0.4300249046754689,
+    "food_val_loss": 12.345805230348006,
+    "food_val_accuracy": 0.12318840579710146,
+    "water_train_loss": 1.6475896741717289,
+    "water_val_loss": 1.542602265602909,
+    "water_val_accuracy": 0.55625,
+    "seconds": 35.29827284812927
+  },
+  {
+    "epoch": 4,
+    "food_train_loss": 0.35679946404130053,
+    "food_val_loss": 6.586189772771752,
+    "food_val_accuracy": 0.12047101449275362,
+    "water_train_loss": 1.5117729833492866,
+    "water_val_loss": 0.8164209419977851,
+    "water_val_accuracy": 0.63125,
+    "seconds": 37.13447141647339
+  },
+  {
+    "epoch": 5,
+    "food_train_loss": 0.30157467001878174,
+    "food_val_loss": 6.630980199661808,
+    "food_val_accuracy": 0.12318840579710146,
+    "water_train_loss": 1.2003794358326838,
+    "water_val_loss": 1.7852379698306322,
+    "water_val_accuracy": 0.5375,
+    "seconds": 37.38419795036316
+  },
+  {
+    "epoch": 6,
+    "food_train_loss": 0.2558926973567224,
+    "food_val_loss": 10.209974326949188,
+    "food_val_accuracy": 0.1923007246484791,
+    "water_train_loss": 0.7485599959125886,
+    "water_val_loss": 5.465008944899273,
+    "water_val_accuracy": 0.55,
+    "seconds": 33.9100558757782
+  },
+  {
+    "epoch": 7,
+    "food_train_loss": 0.2257084040286984,
+    "food_val_loss": 11.58690519609313,
+    "food_val_accuracy": 0.13903985507246377,
+    "water_train_loss": 0.6678578345439373,
+    "water_val_loss": 5.253359293937683,
+    "water_val_accuracy": 0.55,
+    "seconds": 40.53521919250488
+  },
+  {
+    "epoch": 8,
+    "food_train_loss": 0.20460166240293493,
+    "food_val_loss": 9.496801528377809,
+    "food_val_accuracy": 0.12545289855072464,
+    "water_train_loss": 0.4932960446159809,
+    "water_val_loss": 2.1150153920054438,
+    "water_val_accuracy": 0.375,
+    "seconds": 40.885090827941895
+  }
+]

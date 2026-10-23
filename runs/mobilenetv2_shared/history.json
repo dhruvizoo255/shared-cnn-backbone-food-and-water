@@ -1,0 +1,92 @@
+[
+  {
+    "epoch": 1,
+    "food_train_loss": 0.1530092339753608,
+    "food_val_loss": 19.414377938146178,
+    "food_val_accuracy": 0.11503623188405797,
+    "water_train_loss": 1.6463284369648392,
+    "water_val_loss": 0.20361928927156897,
+    "water_val_accuracy": 0.9625,
+    "seconds": 80.16892457008362
+  },
+  {
+    "epoch": 2,
+    "food_train_loss": 0.1886003643349805,
+    "food_val_loss": 5.85878806874372,
+    "food_val_accuracy": 0.25036231892696326,
+    "water_train_loss": 0.47853223914698434,
+    "water_val_loss": 0.28155283977229006,
+    "water_val_accuracy": 0.9625,
+    "seconds": 52.469260931015015
+  },
+  {
+    "epoch": 3,
+    "food_train_loss": 0.06639012321178014,
+    "food_val_loss": 0.05745079426117666,
+    "food_val_accuracy": 0.980072463768116,
+    "water_train_loss": 0.11896090868611235,
+    "water_val_loss": 0.1453912051336374,
+    "water_val_accuracy": 0.98125,
+    "seconds": 54.59243726730347
+  },
+  {
+    "epoch": 4,
+    "food_train_loss": 0.015540765163544901,
+    "food_val_loss": 0.026440637802727946,
+    "food_val_accuracy": 0.9923007246376812,
+    "water_train_loss": 0.06094307456171522,
+    "water_val_loss": 0.21279787442617817,
+    "water_val_accuracy": 0.975,
+    "seconds": 49.36248826980591
+  },
+  {
+    "epoch": 5,
+    "food_train_loss": 0.009078272746364392,
+    "food_val_loss": 0.02726159508982665,
+    "food_val_accuracy": 0.9913949275362319,
+    "water_train_loss": 0.06226259906394168,
+    "water_val_loss": 0.14409457726869732,
+    "water_val_accuracy": 0.9875,
+    "seconds": 73.05300688743591
+  },
+  {
+    "epoch": 6,
+    "food_train_loss": 0.011695274175058733,
+    "food_val_loss": 0.1220281750217997,
+    "food_val_accuracy": 0.9651268115942029,
+    "water_train_loss": 0.030819995972426392,
+    "water_val_loss": 0.12079084358701948,
+    "water_val_accuracy": 0.99375,
+    "seconds": 61.08353781700134
+  },
+  {
+    "epoch": 7,
+    "food_train_loss": 0.017579823613386468,
+    "food_val_loss": 0.055096846199007087,
+    "food_val_accuracy": 0.9827898550724637,
+    "water_train_loss": 0.03898598248204694,
+    "water_val_loss": 0.14282072946953123,
+    "water_val_accuracy": 0.9875,
+    "seconds": 50.356383323669434
+  },
+  {
+    "epoch": 8,
+    "food_train_loss": 0.006085056045726369,
+    "food_val_loss": 0.04819992450567319,
+    "food_val_accuracy": 0.9850543478260869,
+    "water_train_loss": 0.23464053082231354,
+    "water_val_loss": 0.1691775537769445,
+    "water_val_accuracy": 0.99375,
+    "seconds": 54.18917369842529
+  },
+  {
+    "epoch": 9,
+    "food_train_loss": 0.0058914350980935745,
+    "food_val_loss": 0.09143339542609849,
+    "food_val_accuracy": 0.9769021739130435,
+    "water_train_loss": 0.04556508783414943,
+    "water_val_loss": 0.17001413418704772,
+    "water_val_accuracy": 0.98125,
+    "seconds": 51.885626554489136
+  }
+]

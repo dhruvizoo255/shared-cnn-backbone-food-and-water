@@ -1,0 +1,47 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.8159948207356882,
+    "food_val_accuracy": 0.6158038147138964,
+    "food_val_macro_f1": 0.5315154521155311,
+    "water_val_accuracy": 0.6415094339622641,
+    "water_val_macro_f1": 0.3466843389716402,
+    "mean_val_macro_f1": 0.43909989554358564
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.5343004708898197,
+    "food_val_accuracy": 0.6021798365122616,
+    "food_val_macro_f1": 0.6119772684306266,
+    "water_val_accuracy": 0.9056603773584906,
+    "water_val_macro_f1": 0.681029585990879,
+    "mean_val_macro_f1": 0.6465034272107528
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.43873262626711357,
+    "food_val_accuracy": 0.7488646684831971,
+    "food_val_macro_f1": 0.7332790102719285,
+    "water_val_accuracy": 0.7421383647798742,
+    "water_val_macro_f1": 0.5133517116524029,
+    "mean_val_macro_f1": 0.6233153609621658
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.37523679658886433,
+    "food_val_accuracy": 0.7956403269754768,
+    "food_val_macro_f1": 0.8142604122198862,
+    "water_val_accuracy": 0.7232704402515723,
+    "water_val_macro_f1": 0.4737805828268662,
+    "mean_val_macro_f1": 0.6440204975233762
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.3298905064028863,
+    "food_val_accuracy": 0.7225249772933696,
+    "food_val_macro_f1": 0.7524637613347777,
+    "water_val_accuracy": 0.8113207547169812,
+    "water_val_macro_f1": 0.5932218626393384,
+    "mean_val_macro_f1": 0.672842811987058
+  }
+]

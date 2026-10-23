@@ -1,0 +1,48 @@
+SHARED-BACKBONE CNN PROJECT AUDIT
+========================================
+
+SAVED MODELS
+runs/customcnn_shared/best.keras | 1.49 MB
+runs/customcnn_shared/final.keras | 1.49 MB
+runs/customcnn_shared/latest.keras | 1.49 MB
+runs/mobilenetv2_shared/best.keras | 11.63 MB
+runs/mobilenetv2_shared/final.keras | 11.62 MB
+runs/mobilenetv2_shared/latest.keras | 11.63 MB
+
+FEATURE ARRAY VALIDATION
+features/customcnn_shared/food/emb_128.npy | shape=(10277, 128) | dtype=float32
+features/customcnn_shared/food/pooled.npy | shape=(10277, 128) | dtype=float32
+features/customcnn_shared/water/emb_128.npy | shape=(617, 128) | dtype=float32
+features/customcnn_shared/water/pooled.npy | shape=(617, 128) | dtype=float32
+features/mobilenetv2_shared/food/emb_128.npy | shape=(10277, 128) | dtype=float32
+features/mobilenetv2_shared/food/pooled.npy | shape=(10277, 1280) | dtype=float32
+features/mobilenetv2_shared/water/emb_128.npy | shape=(617, 128) | dtype=float32
+features/mobilenetv2_shared/water/pooled.npy | shape=(617, 1280) | dtype=float32
+
+FEATURE INDEX COUNTS
+features/customcnn_shared/food/index.csv | rows=10277
+features/customcnn_shared/water/index.csv | rows=617
+features/mobilenetv2_shared/food/index.csv | rows=10277
+features/mobilenetv2_shared/water/index.csv | rows=617
+
+TRAINING CONFIGURATION
+
+--- shared_train.py ---
+11: SEED = 42
+13: BATCH = 16
+14: EPOCHS = 50
+51:         class_names=WATER_CLASSES,
+59: def build_shared(architecture):
+143:             epochs=1,
+149:             epochs=1,
+
+--- train_models.py ---
+13: BATCH = 16
+14: EPOCHS = 3
+22: def build(n):
+41:         path, class_names=classes, image_size=IMG,
+47:     model.fit(train, validation_data=val, epochs=EPOCHS, verbose=1,
+49:             tf.keras.callbacks.ModelCheckpoint(
+71: from sklearn.model_selection import train_test_split
+74: tr, hold = train_test_split(idx, test_size=.2, random_state=42, stratify=labels)
+75: va, te = train_test_split(hold, test_size=.5, random_state=42,
