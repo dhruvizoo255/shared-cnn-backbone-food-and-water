@@ -1,0 +1,68 @@
+{
+  "project_root": "..",
+  "backbone_id": "mobilenetv2_shared",
+  "domain": "food",
+  "feature_type": "emb_128",
+  "seed": 42,
+  "exploratory": true,
+  "xgboost": {
+    "param_grid": [
+      {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "learning_rate": 0.05,
+        "subsample": 0.8
+      },
+      {
+        "n_estimators": 300,
+        "max_depth": 6,
+        "learning_rate": 0.05,
+        "subsample": 0.8
+      },
+      {
+        "n_estimators": 300,
+        "max_depth": 4,
+        "learning_rate": 0.1,
+        "subsample": 0.9
+      }
+    ]
+  },
+  "adaboost": {
+    "param_grid": [
+      {
+        "n_estimators": 100,
+        "learning_rate": 0.5,
+        "max_depth": 1
+      },
+      {
+        "n_estimators": 200,
+        "learning_rate": 0.5,
+        "max_depth": 2
+      },
+      {
+        "n_estimators": 200,
+        "learning_rate": 1.0,
+        "max_depth": 1
+      }
+    ]
+  },
+  "lightgbm": {
+    "param_grid": [
+      {
+        "n_estimators": 200,
+        "num_leaves": 31,
+        "learning_rate": 0.05
+      },
+      {
+        "n_estimators": 300,
+        "num_leaves": 63,
+        "learning_rate": 0.05
+      },
+      {
+        "n_estimators": 300,
+        "num_leaves": 31,
+        "learning_rate": 0.1
+      }
+    ]
+  }
+}
